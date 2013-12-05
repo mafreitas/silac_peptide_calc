@@ -53,6 +53,7 @@ class mzXMLDoc:
     def getDocument(self, path):
  
         # parse XML
+        print path
         self.doc = ET.parse(path)       
         self.root = self.doc.getroot()
         

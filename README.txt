@@ -4,7 +4,6 @@ Requirements:
 python 2.6
 
 Python Modules:
-numpy
 optparse
 matplotlib
 lxml
